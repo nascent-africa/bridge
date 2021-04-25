@@ -1,0 +1,27 @@
+preset: package
+
+namespace: NascentAfrica\Bridge
+user-auth-provider: App\Models\User
+
+paths:
+  src: src/NascentAfrica/Bridge
+  resource: resources
+
+factory:
+  path: database/factories
+
+migration:
+  path: database/migrations
+  prefix: ''
+
+console:
+  namespace: NascentAfrica\Bridge\Console
+
+model:
+  namespace: NascentAfrica\Bridge\Models
+
+provider:
+  namespace: NascentAfrica\Bridge\Providers
+
+testing:
+  namespace: NascentAfrica\Bridge\Tests
